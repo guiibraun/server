@@ -5,7 +5,7 @@ const fastify = Fastify();
 fastify.post("/wp-json/jwt-auth/v1/token", (request, reply) => {
   reply.send({
     token:
-      "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2N1cnNvcy5pbG9zLmNvbS5iciIsImlhdCI6MTczODMzNDQ2NiwibmJmIjoxNzM4MzM0NDY2LCJleHAiOjE3Mzg5MzkyNjYsImRhdGEiOnsidXNlciI6eyJpZCI6IjMxMyJ9fX0.SiAoj2V4ZjcR0kOJ8QlVpAuY70B49yiIOq1v5R7WKM4",
+      "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2N1cnNvcy5pbG9zLmNvbS5iciIsImlhdCI6MTc0MDc0NDA1OCwibmJmIjoxNzQwNzQ0MDU4LCJleHAiOjE3NDEzNDg4NTgsImRhdGEiOnsidXNlciI6eyJpZCI6IjMxMyJ9fX0.kZ62-jaBW8Az43jr4QdOhn5TdzkV54eQp0_7ciRaio4",
     user_email: "guiabraun@hotmail.com",
     user_nicename: "guiabraunhotmail-com",
     user_display_name: "GUILHERME BRAUN",
